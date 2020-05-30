@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.campusero-info{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+    float: left;
+}
+.info-equipo{
+    width: 49vw;
+    height: 50vh;
+    background-color: red;
+    float: left;
+}
+.historial-equipo{
+    width: 20vw;
+    height: 50vh;
+    background-color: yellow;
+    float: left;
+}
+.numero-equipos{
+    width: 20vw;
+    height: 50vh;
+    background-color: green;
+    float: left;
+}
+.lista-fabricantes{
+    width: 20vw;
+    height: 50vh;
+    background-color: black;
+    float: left;
+}
+.lista-software-educativo{
+    width: 20vw;
+    height: 50vh;
+    background-color: white;
+    float: left;
+}
+.info-computador{
+    width: 20vw;
+    height: 50vh;
+    background-color: purple;
+    float: left;
+}
+.lista-software-gamer{
+    width: 19vw;
+    height: 50vh;
+    background-color: orange;
+    float: left;
+}
