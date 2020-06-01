@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "InfoEquipoServlet")
-public class InfoEquipoServlet extends HttpServlet {
+@WebServlet(name = "InfoCampuseroServlet")
+public class HistorialEquiposGamerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             PrintWriter out = response.getWriter();
-            out.println((new EquipoDao()).consultarEquipoPorCampusero("1"));
+            out.println((new EquipoDao()).consultarEquiposPorCampusero("1"));
         } catch(Exception e) {
             System.out.println("Error: "+e.getMessage());
         }

@@ -1,7 +1,7 @@
 package co.edu.itm.campusparty.servlet;
 
-import co.edu.itm.campusparty.persistence.CampuseroDao;
 import co.edu.itm.campusparty.persistence.EquipoDao;
+import co.edu.itm.campusparty.persistence.FabricantesDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,12 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "InfoEquipoServlet")
-public class InfoEquipoServlet extends HttpServlet {
+@WebServlet(name = "ListaFabricantesSoftwareServlet")
+public class ListaFabricantesSoftwareServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             PrintWriter out = response.getWriter();
-            out.println((new EquipoDao()).consultarEquipoPorCampusero("1"));
+            out.println((new FabricantesDao()).consultarFabricantes("1"));
         } catch(Exception e) {
             System.out.println("Error: "+e.getMessage());
         }

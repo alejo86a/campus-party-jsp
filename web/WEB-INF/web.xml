@@ -11,4 +11,36 @@
         <servlet-name>InfoCampuseroServlet</servlet-name>
         <url-pattern>/InfoCampuseroServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>HistorialEquiposGamerServlet</servlet-name>
+        <servlet-class>co.edu.itm.campusparty.servlet.HistorialEquiposGamerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HistorialEquiposGamerServlet</servlet-name>
+        <url-pattern>/HistorialEquiposGamerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InfoEquipoServlet</servlet-name>
+        <servlet-class>co.edu.itm.campusparty.servlet.InfoEquipoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoEquipoServlet</servlet-name>
+        <url-pattern>/InfoEquipoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListaFabricantesSoftwareServlet</servlet-name>
+        <servlet-class>co.edu.itm.campusparty.servlet.ListaFabricantesSoftwareServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListaFabricantesSoftwareServlet</servlet-name>
+        <url-pattern>/ListaFabricantesSoftwareServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ListaHotelesServlet</servlet-name>
+        <servlet-class>co.edu.itm.campusparty.servlet.ListaHotelesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListaHotelesServlet</servlet-name>
+        <url-pattern>/ListaHotelesServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
