@@ -10,9 +10,11 @@
   <head>
     <title>$Title$</title>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scripts.js"></script>
   </head>
   <body>
-  <div class="campusero-info">1</div>
+  <div id="campusero-info" class="campusero-info">1</div>
   <div class="info-equipo">2</div>
   <div class="historial-equipos">3</div>
   <div class="numero-equipos">4</div>
